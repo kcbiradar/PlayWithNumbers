@@ -1,5 +1,8 @@
 import { useState } from "react";
 import { Button } from "reactstrap";
+import 'bootstrap/dist/css/bootstrap.css';
+
+import { NavLink } from 'react-router-dom';
 import './Style.css';
 function Divide() {
 
@@ -88,11 +91,13 @@ function Divide() {
                     <option>Hard</option>
                 </select>
             </div>
+            <br/><br/>
             <div id="problem" className={state.incorrect ? "incorrect" : ""} >{state.x} / {state.y}</div>
             <input autoFocus = {true} onChange={check} value={state.answer}/>
             <br/>
             <Button onClick={onSubmission} >Submit</Button>
             <div>score : {state.score}</div>
+            <NavLink to = "/" className = "btn btn-dark">Back</NavLink>
       </div>
     );
   }

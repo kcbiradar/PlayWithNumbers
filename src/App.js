@@ -1,4 +1,3 @@
-import './App.css';
 import 'bootstrap/dist/css/bootstrap.css';
 import Add from './components/Add';
 import React from 'react';
