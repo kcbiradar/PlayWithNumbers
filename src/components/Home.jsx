@@ -8,7 +8,7 @@ function Home () {
 
         <h1 className='text-center text-success my-5'> WelCome to Play With Numbers</h1>
 
-        <div class="card text-center">
+        <div class="card text-center mb-3" >
             <div class="card-header">
                 Addition
             </div>
@@ -18,10 +18,9 @@ function Home () {
                 <NavLink to = "/add" className = "btn btn-primary">Go</NavLink>
             </div>
         </div>
-
-        <div class="card text-center">
+        <div class="card text-center mb-3">
             <div class="card-header">
-                Addition
+                Substraction
             </div>
             <div className="card-body">
                 <h5 className="card-title">Play with Substracting Numbers</h5>
@@ -30,20 +29,20 @@ function Home () {
             </div>
         </div>
 
-        <div class="card text-center">
+        <div class="card text-center mb-3">
             <div class="card-header">
-                Addition
+                Multiplication
             </div>
             <div className="card-body">
-                <h5 className="card-title">Play with Multiply Numbers</h5>
+                <h5 className="card-title">Play with Multiplying Numbers</h5>
                 <p className="card-text">Let's start</p>
                 <NavLink to = "/multiply" className = "btn btn-primary">Go</NavLink>
             </div>
         </div>
 
-        <div class="card text-center">
+        <div class="card text-center mb-3">
             <div class="card-header">
-                Addition
+                Division
             </div>
             <div className="card-body">
                 <h5 className="card-title">Play with Dividing Numbers</h5>
