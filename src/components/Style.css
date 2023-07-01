@@ -1,0 +1,12 @@
+.App {
+    font-family:sans-serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+#problem {
+    font-size: 80px;
+}
+.incorrect {
+    color: red;
+}
