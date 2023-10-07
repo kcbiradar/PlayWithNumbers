@@ -59,7 +59,8 @@ function Divide() {
                 ...state,
                 x : Math.ceil(Math.random() * 100),
                 y:Math.ceil(Math.random() * 100),
-                level:e.target.value
+                level:e.target.value,
+                incorrect:false
             });
         }
         if(e.target.value === "Normal") {
@@ -67,7 +68,8 @@ function Divide() {
                 ...state,
                 x : Math.ceil(Math.random() * 1000),
                 y:Math.ceil(Math.random() * 1000),
-                level:e.target.value
+                level:e.target.value,
+                incorrect:false
             }); 
         }
         if(e.target.value === "Hard") {
@@ -75,7 +77,8 @@ function Divide() {
                 ...state,
                 x : Math.ceil(Math.random() * 10000),
                 y:Math.ceil(Math.random() * 10000),
-                level:e.target.value
+                level:e.target.value,
+                incorrect:false
             }); 
         }
     }

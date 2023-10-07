@@ -5,7 +5,6 @@ import { NavLink } from 'react-router-dom';
 function Home () {
     return (
         <>
-
         <h1 className='text-center text-success my-5'> WelCome to Play With Numbers</h1>
 
         <div class="card text-center mb-3" >

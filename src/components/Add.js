@@ -58,7 +58,8 @@ function Add() {
                 ...state,
                 x : Math.ceil(Math.random() * 10),
                 y:Math.ceil(Math.random() * 10),
-                level:e.target.value
+                level:e.target.value,
+                incorrect:false
             });
         }
         if(e.target.value === "Normal") {
@@ -66,7 +67,8 @@ function Add() {
                 ...state,
                 x : Math.ceil(Math.random() * 100),
                 y:Math.ceil(Math.random() * 100),
-                level:e.target.value
+                level:e.target.value,
+                incorrect:false
             }); 
         }
         if(e.target.value === "Hard") {
@@ -74,7 +76,8 @@ function Add() {
                 ...state,
                 x : Math.ceil(Math.random() * 1000),
                 y:Math.ceil(Math.random() * 1000),
-                level:e.target.value
+                level:e.target.value,
+                incorrect:false
             }); 
         }
     }
